@@ -1,0 +1,26 @@
+.main-header {
+  background-color: #9a9b94;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-header ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.main-header ul li {
+  list-style-type: none;
+}
+.main-header ul li * {
+  color: #52524e;
+  font-weight: 600;
+  text-decoration: none;
+}
