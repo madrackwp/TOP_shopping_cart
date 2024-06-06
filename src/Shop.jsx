@@ -23,7 +23,9 @@ function Shop({
   return (
     <>
       <div className="shop-page">
-        <h1>This is the shop page</h1>
+        <h2 aria-level="2" aria-label="shop-heading">
+          This is the shop page
+        </h2>
         <div className="shop">
           <div className="item-library">
             {shopData.map((item) => (

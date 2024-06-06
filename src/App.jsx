@@ -90,7 +90,7 @@ function App() {
           element: <Home />,
         },
         {
-          path: "shop",
+          path: "/shop",
           element: (
             <Shop
               shopData={shopData}

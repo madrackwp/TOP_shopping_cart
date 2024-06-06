@@ -15,17 +15,17 @@ function Header({ itemsInCart }) {
       <nav>
         <ul>
           <li>
-            <button type="button">
+            <button type="button" aria-label="home-button">
               <Link to="/">Home</Link>
             </button>
           </li>
           <li>
-            <button type="button">
+            <button type="button" aria-label="shop-button">
               <Link to="/shop">Shop</Link>
             </button>
           </li>
           <li>
-            <button type="button">
+            <button type="button" aria-label="shop-cart">
               <Link to="/shop">Shopping Cart ({count})</Link>
             </button>
           </li>

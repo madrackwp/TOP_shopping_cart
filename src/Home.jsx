@@ -2,7 +2,9 @@ function Home() {
   return (
     <>
       <div>
-        <h1>This is the home page</h1>
+        <h2 aria-level="2" aria-label="home-heading">
+          This is the home page
+        </h2>
       </div>
     </>
   );
